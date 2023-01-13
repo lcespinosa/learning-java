@@ -18,6 +18,6 @@ public class CylinderVolumeProgram {
         System.out.println("Enter the height size: ");
         int height = scanner.nextInt();;
 
-        System.out.printf("The area of the cylinder is: %s", new Cylinder(radius, height).volume());
+        System.out.printf("The volume of the cylinder is: %s", new Cylinder(radius, height).volume());
     }
 }
